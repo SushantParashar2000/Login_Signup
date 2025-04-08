@@ -6,7 +6,7 @@ import SignUp from "./Components/SignUp";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Login_Signup/">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
